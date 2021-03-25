@@ -2,7 +2,7 @@ var hr, min, sec;
 var hrAngle, minAngle, secAngle;
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(displayWidth,displayHeight - 143);
   
   angleMode(DEGREES);
   
@@ -12,7 +12,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,255,255);
+  background(0,0,0);
   translate(200,200);
   rotate(-90);
   hr = hour();
